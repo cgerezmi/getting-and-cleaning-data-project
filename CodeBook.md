@@ -1,13 +1,19 @@
-# getting-and-cleaning-data-project
+# Code Book
+The output file, tidy.csv, is a comma separated plain file.
+This Code Book summarizes its variables.
 
-	## Description
-	This is the repository for the Course Project of "Getting and Cleaning Data" course. 
-	The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set.
-	
-	
-	## Source
-	A full description is available at the site where the data was obtained: [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-	Here is the data file for the project: [Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+* subject
+** The Person IDs who are measured in terms of variables.
+* activity
+** The activity performed by the subjects.
+*** WALKING
+*** WALKING_UPSTAIRS
+*** WALKING_DOWNSTAIRS
+*** SITTING
+*** STANDING
+*** LAYING
 
-	## Process Steps from the source to target (tidy.csv)
-	
+Identifiers
+
+subject - The ID of the test subject
+activity - The type of activity performed when the corresponding measurements were taken
