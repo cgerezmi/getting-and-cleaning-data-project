@@ -2,10 +2,10 @@
 The output file, tidy.csv, is a comma separated plain file.
 This Code Book summarizes its variables.
 
-+ subject \s 
++ subject \s\s 
 The Person IDs who are measured in terms of variables.
 
-+ activity \s 
++ activity \s\s
 The activity performed by the subjects.
 	- WALKING
 	- WALKING_UPSTAIRS
