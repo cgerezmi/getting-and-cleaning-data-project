@@ -2,22 +2,79 @@
 The output file, tidy.csv, is a comma separated plain file.
 This Code Book summarizes its variables.
 
-+ subject 
++ subject (identifier) : The Person IDs who are measured in terms of variables.
 
-The Person IDs who are measured in terms of variables.
-
-+ activity \s\s
-
-The activity performed by the subjects.
-
++ activity (identifier) : The activity performed by the subjects.
 	- WALKING
 	- WALKING_UPSTAIRS
 	- WALKING_DOWNSTAIRS
 	- SITTING
 	- STANDING
 	- LAYING
-
-Identifiers
-
-subject - The ID of the test subject
-activity - The type of activity performed when the corresponding measurements were taken
+                                 
++ timeBodyAccelarationMeanOfX
++ timeBodyAccelarationMeanOfY
++ timeBodyAccelarationMeanOfZ
++ timeBodyAccelarationStdDevOfX
++ timeBodyAccelarationStdDevOfY
++ timeBodyAccelarationStdDevOfZ
++ timeGravityAccelarationMeanOfX
++ timeGravityAccelarationMeanOfY
++ timeGravityAccelarationMeanOfZ
++ timeGravityAccelarationStdDevOfX
++ timeGravityAccelarationStdDevOfY
++ timeGravityAccelarationStdDevOfZ
++ timeBodyAccelarationJerkMeanOfX
++ timeBodyAccelarationJerkMeanOfY
++ timeBodyAccelarationJerkMeanOfZ
++ timeBodyAccelarationJerkStdDevOfX
++ timeBodyAccelarationJerkStdDevOfY
++ timeBodyAccelarationJerkStdDevOfZ
++ timeBodyGyroMeanOfX
++ timeBodyGyroMeanOfY
++ timeBodyGyroMeanOfZ
++ timeBodyGyroStdDevOfX
++ timeBodyGyroStdDevOfY
++ timeBodyGyroStdDevOfZ
++ timeBodyGyroJerkMeanOfY
++ timeBodyGyroJerkMeanOfZ
++ timeBodyGyroJerkStdDevOfX
++ timeBodyGyroJerkStdDevOfY
++ timeBodyGyroJerkStdDevOfZ
++ timeBodyAccelarationMagnitudeMean
++ timeBodyAccelarationMagnitudeStdDev
++ timeBodyGyroJerkMeanOfX
++ timeGravityAccelarationMagnitudeMean
++ timeGravityAccelarationMagnitudeStdDev
++ timeBodyAccelarationJerkMagnitudeMean
++ timeBodyAccelarationJerkMagnitudeStdDev
++ timeBodyGyroMagnitudeMean
++ timeBodyGyroMagnitudeStdDev
++ timeBodyGyroJerkMagnitudeMean
++ timeBodyGyroJerkMagnitudeStdDev
++ freqBodyAccelarationMeanOfX
++ freqBodyAccelarationMeanOfY
++ freqBodyAccelarationMeanOfZ
++ freqBodyAccelarationStdDevOfX
++ freqBodyAccelarationStdDevOfY
++ freqBodyAccelarationStdDevOfZ
++ freqBodyAccelarationJerkMeanOfX
++ freqBodyAccelarationJerkMeanOfY
++ freqBodyAccelarationJerkMeanOfZ
++ freqBodyAccelarationJerkStdDevOfX
++ freqBodyAccelarationJerkStdDevOfY
++ freqBodyAccelarationJerkStdDevOfZ
++ freqBodyGyroMeanOfX
++ freqBodyGyroMeanOfY
++ freqBodyGyroMeanOfZ
++ freqBodyGyroStdDevOfX
++ freqBodyGyroStdDevOfY
++ freqBodyGyroStdDevOfZ
++ freqBodyAccelarationMagnitudeMean
++ freqBodyAccelarationMagnitudeStdDev
++ freqBodyBodyAccelarationJerkMagnitudeMean
++ freqBodyBodyAccelarationJerkMagnitudeStdDev
++ freqBodyBodyGyroMagnitudeMean
++ freqBodyBodyGyroMagnitudeStdDev
++ freqBodyBodyGyroJerkMagnitudeMean
++ freqBodyBodyGyroJerkMagnitudeStdDev
