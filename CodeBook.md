@@ -5,9 +5,9 @@ This Code Book summarizes its variables.
 * subject
 ** The Person IDs who are measured in terms of variables.
 * activity
-.. The activity performed by the subjects.
-.. WALKING
-... WALKING_UPSTAIRS
+..* The activity performed by the subjects.
+...* WALKING
+...* WALKING_UPSTAIRS
 ... WALKING_DOWNSTAIRS
 *** SITTING
 *** STANDING
