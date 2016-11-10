@@ -1,3 +1,4 @@
+
 # -------------------------------------
 #           STEP 1 & 2
 # -------------------------------------
@@ -61,5 +62,5 @@ names(data)         <- gsub("Acc","Accelaration",names(data))
 # -------------------------------------
 library(plyr)
 data_tidy <- ddply(data, .(subject, activity), function(x) colMeans(x[, 3:68]))
-write.csv(data_tidy, "tidy.csv", row.names = FALSE)
+write.table(data_tidy, "tidy.txt", row.names = FALSE )
 remove(data_tidy)
